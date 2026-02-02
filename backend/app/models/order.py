@@ -8,6 +8,9 @@ from uuid import UUID, uuid4
 from decimal import Decimal
 from enum import Enum
 
+from app.models.user import User
+from app.models.product import Product
+
 
 class OrderStatus(str, Enum):
     """Order status enumeration"""
