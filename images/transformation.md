@@ -1,4 +1,7 @@
-# Project Transformation Strategy: Senteng Fashions Enterprise Upgrade
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
+# Project Transformation Strategy: Pete Fashion Hub Enterprise Upgrade
 
 ## 1. Executive Summary
 **From:** A static, monolithic HTML brochure website.  
@@ -35,7 +38,7 @@ Recruiters scan for specific keywords. We will hit every single high-value targe
 *   **Future:** Component-Based Architecture with **Material UI**.
     *   **"The Basic" Setup:** A clean React installation focusing on standard patterns rather than specialized build tools.
     *   **MUI Integration:** Deep integration of MUI components for a premium, professional "Enterprise" look.
-    *   **Theming:** Create a custom MUI theme to match the Senteng branding (Green/White/Black).
+    *   **Theming:** Create a custom MUI theme to match the Pete Fashion Hub branding (Green/White/Black).
     *   **State Management:** Use `React Context` or `Zustand` for global state (cart, auth).
     *   **Routing:** `React Router 6+` for handling SPA navigation.
 
@@ -78,7 +81,7 @@ To get hired, you must code like a team.
 
 ## 6. Directory Structure Target
 ```
-SENGTENG-PLATFORM/
+Pete Fashion Hub-PLATFORM/
 ├── .github/              # CI/CD Workflows
 ├── backend/              # FastAPI Application
 │   ├── app/
@@ -107,3 +110,6 @@ SENGTENG-PLATFORM/
 ```
 
 This transformation turns a simple HTML project into a **SaaS-level Platform**. It is a significant undertaking, but completing it guarantees you enter the top 1% of entry-level candidates.
+
+
+

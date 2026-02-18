@@ -1,4 +1,7 @@
-# The 120-Step Road to Senior Engineer: Senteng Fashions Transformation
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
+# The 120-Step Road to Senior Engineer: Pete Fashion Hub Transformation
 
 This is not just a to-do list. It is a curriculum. Completing these 120+ tasks simulates 2-3 years of industry experience packed into a high-intensity building period.
 
@@ -24,7 +27,7 @@ This is not just a to-do list. It is a curriculum. Completing these 120+ tasks s
 17. [ ] **Order Models**: Define `Order` and `OrderItem` schemas with foreign keys.
 18. [ ] **Migration Init**: Run `alembic init` and configure `env.py` to read models.
 19. [ ] **First Migration**: Generate and apply the initial migration to create tables.
-20. [ ] **Seeding Script**: Write a Python script to populate the DB with initial "Senteng" categories.
+20. [ ] **Seeding Script**: Write a Python script to populate the DB with initial "Pete Fashion Hub" categories.
 
 ## Phase 3: Backend Core & Authentication (The Security)
 21. [ ] **FastAPI Setup**: Initialize the `FastAPI` app with CORS middleware (allow frontend URL).
@@ -54,7 +57,7 @@ This is not just a to-do list. It is a curriculum. Completing these 120+ tasks s
 41. [ ] **React Init**: Initialize a standard React project (using a clean template).
 42. [ ] **MUI Installation**: Install `@mui/material`, `@emotion/react`, `@emotion/styled`.
 43. [ ] **Font Setup**: Import "Abril Fatface" and "Inter" from Google Fonts in your main entry file.
-44. [ ] **MUI Theme Config**: Create `theme.js` defining Senteng brand colors and typography.
+44. [ ] **MUI Theme Config**: Create `theme.js` defining Pete Fashion Hub brand colors and typography.
 45. [ ] **Project Structure**: Set up `src/components`, `src/pages`, `src/services`, `src/context`.
 46. [ ] **State Management**: Install `Zustand` and create a `useAuthStore` specific to user session.
 47. [ ] **Router Setup**: Install `react-router-dom` and define the main route structure in `App.js`.
@@ -67,7 +70,7 @@ This is not just a to-do list. It is a curriculum. Completing these 120+ tasks s
 52. [ ] **Footer Component**: Build the detailed footer using MUI `Box` and `Typography`.
 53. [ ] **Hero Component**: Create a dynamic Hero section using MUI `Box` with standard gradients.
 54. [ ] **Product Card**: Design a reusable MUI `Card` for displaying uniforms/products.
-55. [ ] **MUI Customization**: Customize MUI Buttons for "Senteng Green" and "Red" accents.
+55. [ ] **MUI Customization**: Customize MUI Buttons for "Pete Fashion Hub Green" and "Red" accents.
 56. [ ] **Input Fields**: Create styled MUI `TextField` variants with validation support.
 57. [ ] **Loader/Backdrop**: Create a loading state using MUI `CircularProgress`.
 58. [ ] **Modal/Dialog**: Implement an MUI `Dialog` for product quick views.
@@ -149,3 +152,6 @@ This is not just a to-do list. It is a curriculum. Completing these 120+ tasks s
 ---
 **Completion Status: 0/120**
 *Mark tasks with `[x]` as you complete them.*
+
+
+

@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Authentication API Dependencies
 """
@@ -80,3 +83,7 @@ async def get_current_superuser(
             detail="Not enough permissions"
         )
     return current_user
+
+
+
+
