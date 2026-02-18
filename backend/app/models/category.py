@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Category Database Model
 """
@@ -29,3 +32,7 @@ class Category(SQLModel, table=True):
     
     # Relationships
     products: List["Product"] = Relationship(back_populates="category")
+
+
+
+

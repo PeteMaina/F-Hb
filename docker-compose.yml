@@ -4,18 +4,18 @@ services:
   # PostgreSQL Database
   db:
     image: postgres:15-alpine
-    container_name: senteng_db
+    container_name: pete_fashion_hub_db
     restart: unless-stopped
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-senteng}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-senteng_dev_password}
-      POSTGRES_DB: ${POSTGRES_DB:-senteng_db}
+      POSTGRES_USER: ${POSTGRES_USER:-Pete Fashion Hub}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-Pete Fashion Hub_dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-pete_fashion_hub_db}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U senteng"]
+      test: ["CMD-SHELL", "pg_isready -U Pete Fashion Hub"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -25,10 +25,10 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: senteng_backend
+    container_name: pete_fashion_hub_backend
     restart: unless-stopped
     environment:
-      DATABASE_URL: postgresql://${POSTGRES_USER:-senteng}:${POSTGRES_PASSWORD:-senteng_dev_password}@db:5432/${POSTGRES_DB:-senteng_db}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-Pete Fashion Hub}:${POSTGRES_PASSWORD:-Pete Fashion Hub_dev_password}@db:5432/${POSTGRES_DB:-pete_fashion_hub_db}
       SECRET_KEY: ${SECRET_KEY:-your-secret-key-change-in-production}
       ENVIRONMENT: ${ENVIRONMENT:-development}
       CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
@@ -48,7 +48,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       target: development
-    container_name: senteng_frontend
+    container_name: pete_fashion_hub_frontend
     restart: unless-stopped
     environment:
       REACT_APP_API_URL: ${REACT_APP_API_URL:-http://localhost:8000}
@@ -66,7 +66,7 @@ services:
   # MinIO (S3-compatible object storage for development)
   minio:
     image: minio/minio:latest
-    container_name: senteng_minio
+    container_name: pete_fashion_hub_minio
     restart: unless-stopped
     environment:
       MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
@@ -82,3 +82,5 @@ volumes:
   postgres_data:
   minio_data:
   backend_uploads:
+
+

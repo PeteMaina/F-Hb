@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 # Models module init
 from app.models.user import User
 from app.models.category import Category
@@ -15,3 +18,7 @@ __all__ = [
     "Quote",
     "QuoteStatus"
 ]
+
+
+
+

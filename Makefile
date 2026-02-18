@@ -1,9 +1,12 @@
-# Senteng Fashions - Makefile for automation
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
+# Pete Fashion Hub - Makefile for automation
 
 .PHONY: help build up down logs clean install-backend install-frontend test migrate seed
 
 help: ## Show this help message
-	@echo "Senteng Fashions - Available Commands:"
+	@echo "Pete Fashion Hub - Available Commands:"
 	@echo ""
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
@@ -48,7 +51,7 @@ seed: ## Seed database with initial data
 	docker-compose exec backend python scripts/seed_data.py
 
 db-shell: ## Access PostgreSQL shell
-	docker-compose exec db psql -U senteng -d senteng_db
+	docker-compose exec db psql -U Pete Fashion Hub -d pete_fashion_hub_db
 
 # Testing
 test-backend: ## Run backend tests
@@ -107,3 +110,6 @@ shell-frontend: ## Access frontend container shell
 
 shell-db: ## Access database container shell
 	docker-compose exec db /bin/bash
+
+
+

@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Application Configuration using Pydantic Settings
 """
@@ -11,7 +14,7 @@ class Settings(BaseSettings):
     Application settings with environment variable support
     """
     # Project Info
-    PROJECT_NAME: str = "Senteng Fashions API"
+    PROJECT_NAME: str = "Pete Fashion Hub API"
     ENVIRONMENT: str = "development"
     
     # Security
@@ -21,7 +24,7 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     
     # Database
-    DATABASE_URL: str = "postgresql://senteng:senteng_dev_password@localhost:5432/senteng_db"
+    DATABASE_URL: str = "postgresql://pete_fashion_hub:pete_fashion_hub_dev_password@localhost:5432/pete_fashion_hub_db"
     
     # CORS
     CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:8000"]
@@ -31,8 +34,8 @@ class Settings(BaseSettings):
     SMTP_PORT: int = 587
     SMTP_USER: str = ""
     SMTP_PASSWORD: str = ""
-    SENDER_EMAIL: str = "noreply@sentengfashions.com"
-    SENDER_NAME: str = "Senteng Fashions"
+    SENDER_EMAIL: str = "noreply@petefashionhub.com"
+    SENDER_NAME: str = "Pete Fashion Hub"
     
     # File Storage
     USE_S3: bool = False
@@ -45,7 +48,7 @@ class Settings(BaseSettings):
     MINIO_ENDPOINT: str = "localhost:9000"
     MINIO_ROOT_USER: str = "minioadmin"
     MINIO_ROOT_PASSWORD: str = "minioadmin"
-    MINIO_BUCKET: str = "senteng-images"
+    MINIO_BUCKET: str = "pete-fashion-hub-images"
     
     # Pagination
     DEFAULT_PAGE_SIZE: int = 20
@@ -58,3 +61,7 @@ class Settings(BaseSettings):
 
 # Create settings instance
 settings = Settings()
+
+
+
+

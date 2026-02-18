@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Product Endpoints - CRUD operations for products
 """
@@ -203,3 +206,7 @@ async def upload_product_image(
     session.commit()
     
     return {"image_url": product.image_url}
+
+
+
+

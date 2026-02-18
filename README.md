@@ -1,7 +1,10 @@
-NOTE: The original version of SENGTENG Fashions was just a static webpage written with HTML the "xmnlns.html"
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
+NOTE: The original version of Pete Fashion Hub was just a static webpage written with HTML the "xmnlns.html"
 
 On January 15th, the transformation of this site began to a bigger and better software
-# Senteng Fashions - Full-Stack E-Commerce Platform
+# Pete Fashion Hub - Full-Stack E-Commerce Platform
 
 > **Status:** 🟡 Foundation Complete (42% of planned features implemented)  
 > **Stack:** FastAPI + React + PostgreSQL + Material UI + Docker
@@ -14,7 +17,7 @@ A professional, production-ready foundation for a full-stack e-commerce platform
 
 ```bash
 # Clone and navigate
-cd SENGTENG
+cd Pete Fashion Hub
 
 # Setup environment
 copy .env.example .env
@@ -47,7 +50,7 @@ docker-compose exec backend python scripts/seed_data.py
 ✅ Automatic API documentation (Swagger)  
 
 ### Frontend (React + Material UI)
-✅ Custom premium theme with Senteng branding  
+✅ Custom premium theme with Pete Fashion Hub branding  
 ✅ Responsive navigation with mobile drawer  
 ✅ Shopping cart state management (Zustand)  
 ✅ Authentication flow setup  
@@ -60,7 +63,7 @@ docker-compose exec backend python scripts/seed_data.py
 ## 📁 Project Structure
 
 ```
-SENGTENG/
+Pete Fashion Hub/
 ├── backend/           # FastAPI application
 │   ├── app/
 │   │   ├── api/v1/   # API endpoints
@@ -144,7 +147,7 @@ Once running, visit http://localhost:8000/docs for interactive API documentation
 After seeding the database:
 
 ```
-Email: admin@sentengfashions.com
+Email: admin@petefashionhub.com
 Password: admin123
 ```
 
@@ -201,7 +204,7 @@ make test-frontend   # Run frontend tests
 ## 🎨 Design Philosophy
 
 **Premium Aesthetics**
-- Custom Material UI theme matching Senteng brand
+- Custom Material UI theme matching Pete Fashion Hub brand
 - Abril Fatface font for headings (from original design)
 - Smooth micro-animations on all interactions
 - Professional gradient backgrounds
@@ -281,3 +284,6 @@ This project showcases:
 ---
 
 **Built with ❤️ as a portfolio project demonstrating modern full-stack development practices.**
+
+
+

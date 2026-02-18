@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Quote Request Database Model
 """
@@ -56,3 +59,7 @@ class Quote(SQLModel, table=True):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: Optional[datetime] = Field(default=None)
     responded_at: Optional[datetime] = Field(default=None)
+
+
+
+

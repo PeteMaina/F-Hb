@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Product Database Model
 """
@@ -53,3 +56,7 @@ class Product(SQLModel, table=True):
     
     # Relationships
     order_items: List["OrderItem"] = Relationship(back_populates="product")
+
+
+
+

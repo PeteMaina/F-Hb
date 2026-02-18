@@ -59,7 +59,7 @@ backend/uploads/
 *.gif
 *.mp4
 *.webp
-!SENTENG LOGO.png
+!Pete Fashion Hub LOGO.png
 !images/**
 
 # Testing
@@ -73,3 +73,5 @@ coverage/
 .cache/
 tmp/
 temp/
+
+

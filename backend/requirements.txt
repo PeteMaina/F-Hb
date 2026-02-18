@@ -38,3 +38,6 @@ ruff==0.1.14
 # Utilities
 python-slugify==8.0.1
 pillow==10.2.0
+
+
+

@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Database Seeding Script - Populate initial data
 """
@@ -16,16 +19,16 @@ engine = create_engine(settings.DATABASE_URL)
 
 def seed_database():
     """
-    Seed database with initial Senteng Fashions data
+    Seed database with initial Pete Fashion Hub data
     """
     with Session(engine) as session:
         print("🌱 Seeding database...")
         
         # Create admin user
         admin = User(
-            email="admin@sentengfashions.com",
+            email="admin@petefashionhub.com",
             hashed_password=hash_password("admin123"),
-            full_name= "Senteng Admin",
+            full_name= "Pete Fashion Hub Admin",
             is_superuser=True,
             is_active=True
         )
@@ -150,10 +153,14 @@ def seed_database():
         
         print("\n🎉 Database seeding completed successfully!")
         print("\n📝 Admin Credentials:")
-        print("   Email: admin@sentengfashions.com")
+        print("   Email: admin@petefashionhub.com")
         print("   Password: admin123")
         print("\n⚠️  IMPORTANT: Change the admin password in production!")
 
 
 if __name__ == "__main__":
     seed_database()
+
+
+
+

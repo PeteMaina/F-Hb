@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Quote Endpoints - Handle quote requests
 """
@@ -180,3 +183,7 @@ async def upload_quote_logo(
     session.commit()
     
     return {"logo_url": quote.logo_url}
+
+
+
+

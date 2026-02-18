@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Order and OrderItem Database Models
 """
@@ -11,6 +14,7 @@ from enum import Enum
 '''usable not needed'''
 from app.models.user import User
 from app.models.product import Product
+
 
 
 class OrderStatus(str, Enum):
@@ -81,3 +85,7 @@ class OrderItem(SQLModel, table=True):
     
     # Timestamps
     created_at: datetime = Field(default_factory=datetime.utcnow)
+
+
+
+

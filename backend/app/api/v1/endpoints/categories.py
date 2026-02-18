@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Category Endpoints - Manage product categories
 """
@@ -119,3 +122,7 @@ async def update_category(
     session.refresh(category)
     
     return category
+
+
+
+

@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 # Core module init
 from app.core.config import settings
 from app.core.database import get_session, init_db
@@ -11,3 +14,7 @@ __all__ = [
     "verify_password",
     "create_access_token"
 ]
+
+
+
+

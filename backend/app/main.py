@@ -1,5 +1,8 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
-Senteng Fashions Backend - Main Application Entry Point
+Pete Fashion Hub Backend - Main Application Entry Point
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -13,7 +16,7 @@ from app.api.v1.router import api_router
 # Create FastAPI app instance
 app = FastAPI(
     title=settings.PROJECT_NAME,
-    description="Senteng Fashions E-Commerce Platform API",
+    description="Pete Fashion Hub E-Commerce Platform API",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
@@ -46,7 +49,7 @@ async def root():
     """
     return JSONResponse(
         content={
-            "message": "Welcome to Senteng Fashions API",
+            "message": "Welcome to Pete Fashion Hub API",
             "version": "1.0.0",
             "docs": "/docs",
             "health": "healthy"
@@ -73,7 +76,7 @@ async def startup_event():
     """
     Actions to perform on application startup
     """
-    print("🚀 Senteng Fashions Backend starting up...")
+    print("🚀 Pete Fashion Hub Backend starting up...")
     print(f"📝 Environment: {settings.ENVIRONMENT}")
     print(f"📚 API Docs available at: /docs")
 
@@ -84,4 +87,8 @@ async def shutdown_event():
     """
     Actions to perform on application shutdown
     """
-    print("👋 Senteng Fashions Backend shutting down...")
+    print("👋 Pete Fashion Hub Backend shutting down...")
+
+
+
+

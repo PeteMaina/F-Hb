@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Database Connection and Session Management
 """
@@ -28,3 +31,7 @@ def init_db():
     """
     SQLModel.metadata.create_all(engine)
     print("✅ Database tables created successfully")
+
+
+
+

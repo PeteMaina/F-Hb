@@ -1,7 +1,7 @@
 {
-  "name": "senteng-fashions-frontend",
+  "name": "Pete Fashion Hub-fashions-frontend",
   "version": "1.0.0",
-  "description": "Senteng Fashions E-Commerce Platform - Frontend",
+  "description": "Pete Fashion Hub E-Commerce Platform - Frontend",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.5",
@@ -58,3 +58,5 @@
     ]
   }
 }
+
+

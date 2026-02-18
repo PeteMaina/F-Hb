@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Pydantic schemas for API request/response validation
 """
@@ -204,3 +207,7 @@ class PaginatedResponse(BaseModel):
     page: int
     page_size: int
     total_pages: int
+
+
+
+

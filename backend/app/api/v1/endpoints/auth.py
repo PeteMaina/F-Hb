@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 Authentication Endpoints - User registration and login
 """
@@ -113,3 +116,7 @@ async def update_profile(
     session.refresh(current_user)
     
     return current_user
+
+
+
+

@@ -1,3 +1,6 @@
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
+
 """
 User Database Model
 """
@@ -30,3 +33,7 @@ class User(SQLModel, table=True):
     # Relationships
     orders: List["Order"] = Relationship(back_populates="user")
     quotes: List["Quote"] = Relationship(back_populates="user")
+
+
+
+

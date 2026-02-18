@@ -1,6 +1,9 @@
-# Senteng Fashions Backend
+# (c) 2026 Pete Fashion Hub. All rights reserved.
+# This code is the property of Pete Fashion Hub.
 
-FastAPI backend for the Senteng Fashions e-commerce platform.
+# Pete Fashion Hub Backend
+
+FastAPI backend for the Pete Fashion Hub e-commerce platform.
 
 ## Features
 
@@ -125,7 +128,7 @@ backend/
 ## Default Admin Credentials
 
 After seeding the database:
-- **Email**: admin@sentengfashions.com
+- **Email**: admin@petefashionhub.com
 - **Password**: admin123
 
 ⚠️ **Change these credentials in production!**
@@ -150,3 +153,7 @@ ruff check .
 ## License
 
 MIT License - See LICENSE file for details
+
+
+
+

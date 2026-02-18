@@ -3,7 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Container, Typography, Button, Box, AppBar, Toolbar } from '@mui/material';
 
-// Senteng theme
+// Pete Fashion Hub theme
 const theme = createTheme({
     palette: {
         primary: {
@@ -34,7 +34,7 @@ function App() {
             <AppBar position="sticky" color="default" elevation={2}>
                 <Toolbar>
                     <Typography variant="h6" sx={{ fontFamily: '"Abril Fatface", serif', color: 'primary.light', flexGrow: 1 }}>
-                        SENTENG FASHIONS
+                        Pete Fashion Hub
                     </Typography>
                     <Button color="primary">Home</Button>
                     <Button color="primary">Shop</Button>
@@ -73,7 +73,7 @@ function App() {
                     Who We Are
                 </Typography>
                 <Typography paragraph>
-                    Senteng Fashions was recently established in Nairobi, Kenya, with a mission to provide high-quality uniforms and workwear solutions to businesses across the country.
+                    Pete Fashion Hub was recently established in Nairobi, Kenya, with a mission to provide high-quality uniforms and workwear solutions to businesses across the country.
                 </Typography>
                 <Typography paragraph>
                     <strong>We specialize in:</strong> Industrial Wear, Hospitality Wear, Health Care Wear, Corporate Wear, Security Uniforms, Safety Equipment (PPE), Sports Wear, and School Uniforms.
@@ -83,7 +83,7 @@ function App() {
             {/* Footer */}
             <Box component="footer" sx={{ bgcolor: 'black', color: 'white', py: 4, textAlign: 'center' }}>
                 <Typography variant="h6" sx={{ fontFamily: '"Abril Fatface", serif', color: 'primary.light', mb: 2 }}>
-                    SENTENG FASHIONS
+                    Pete Fashion Hub
                 </Typography>
                 <Typography variant="body2">
                     📍 Mfangano Street, Terry House, 2nd Floor, Nairobi
@@ -92,10 +92,10 @@ function App() {
                     📞 0725748082, 0733559349
                 </Typography>
                 <Typography variant="body2">
-                    📧 sentengbrands89@gmail.com
+                    📧 Pete Fashion Hubbrands89@gmail.com
                 </Typography>
                 <Typography variant="body2" sx={{ mt: 2 }}>
-                    © 2026 Senteng Fashions. All Rights Reserved.
+                    © 2026 Pete Fashion Hub. All Rights Reserved.
                 </Typography>
             </Box>
         </ThemeProvider>
@@ -103,3 +103,5 @@ function App() {
 }
 
 export default App;
+
+
