@@ -1,15 +1,13 @@
 # (c) 2026 Pete Fashion Hub. All rights reserved.
-# This code is the property of Pete Fashion Hub.
 
-NOTE: The original version of Pete Fashion Hub was just a static webpage written with HTML the "xmnlns.html"
 
-On January 15th, the transformation of this site began to a bigger and better software
+the transformation of this site began to a bigger and better software
 # Pete Fashion Hub - Full-Stack E-Commerce Platform
 
 > **Status:** 🟡 Foundation Complete (42% of planned features implemented)  
 > **Stack:** FastAPI + React + PostgreSQL + Material UI + Docker
 
-A professional, production-ready foundation for a full-stack e-commerce platform specializing in workwear, uniforms, and custom branding services.
+e-commerce platform specializing in workwear, uniforms, and custom branding services.
 
 ---
 
