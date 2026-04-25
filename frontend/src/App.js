@@ -89,10 +89,10 @@ function App() {
                     📍 Mfangano Street, Terry House, 2nd Floor, Nairobi
                 </Typography>
                 <Typography variant="body2">
-                    📞 0725748082, 0733559349
+                    📞 0794797796, 0794797796
                 </Typography>
                 <Typography variant="body2">
-                    📧 Pete Fashion Hubbrands89@gmail.com
+                    📧 Pete Fashion devpetermaina@gmail.com
                 </Typography>
                 <Typography variant="body2" sx={{ mt: 2 }}>
                     © 2026 Pete Fashion Hub. All Rights Reserved.
